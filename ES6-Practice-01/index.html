@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 | Practice 1</title>
+</head>
+<body>
+    <h1>Welcome to ES6</h1>
+
+    <script>
+    
+    //   //  Variable scope, clouser, Template literals, Distructing, Default parameters, Rest parameter, Spread operators, Arrow function.
+
+    //   //  Variable scoping
+    //    // ---------Global scope
+
+    //     let name = "my name is Huzaifa"
+    //      let forcalling = () => {
+    //          name = "my name is not huzaifa"
+    //          console.log(name);
+            
+    //      }
+    //      forcalling();
+    //      console.log(name);
+        
+
+
+    //    // -------Function scope
+
+    //     let fun1 = (age) => {
+    //         var age;
+    //         console.log(`my age is ${age}`);
+    //     }
+    //     fun1(20);
+
+
+
+    //    // --------Block scope
+
+    //     if(true){
+    //         var address = "peshawar";
+    //         console.log(`i live in  ${address}`);
+            
+    //         var address = "swabi"
+    //         console.log(`i live in  ${address}`);
+    //     }
+    //     console.log(address);
+        
+
+
+    //    // ------Clouser
+    //     function greeting(){
+    //         var name = "huzaifa"
+    //         function inner(){
+    //             console.log(`Welcome in ES6 ${name}`);
+                
+    //         }
+    //         inner();
+    //     }
+    //     greeting();
+
+
+
+    //    // --------Template literals 
+    //     var num1 = 30;
+    //     var num2 = 30;
+    //     console.log('My age is ' + (num1+num2));
+    //     console.log(`My age is ${num1+num2}`);
+        
+
+
+    //     //--------Distructing
+    //     var number = [1, 2, 3, 4, 5]
+    //     var [a, b, c, d, e] = number;
+    //     console.log(a);
+    //     console.log(b);
+    //     console.log(c);
+        
+    //     var person= {
+    //         name : "Huzaifa",
+    //         age : 20
+    //     }
+    //     var {name, age} = person;
+    //     console.log(name);
+    //     console.log(age);
+
+
+
+    //     //-------Default parameters
+    //     var name;
+    //     function greeting(name = "huzaifa") {
+    //         console.log(`Welcome in css ${name}`);
+            
+    //     }
+    //     greeting();
+
+
+
+    //    // ---------Spread operators 
+    //     var numbers = [1, 2, 3];
+    //     console.log(...numbers, 4, 5, 6);
+
+
+        
+    //     //--------Arrow function 
+    //     var hello = () => {
+    //         console.log(`hello everyone`);
+            
+    //     }
+    //     hello();
+        
+        
+        
+    </script>
+</body>
+</html>
