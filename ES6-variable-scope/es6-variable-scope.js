@@ -28,37 +28,30 @@
 
 //? difference on the basis of scope
 //* var
-// if(true){
-//     var a = 12;
-// }
-// console.log(a);
+if(true){
+    var a = 12;
+}
+console.log(a);
 //! 12
 
 //* example of 'var' with the help of 'for loop'
-// for(var a = 1; a < 6; a++){
-//     document.write(a + "</br>");
-// }
-// console.log(a);
-
-
-// ### Correct structure:  
-// javascript
-for (var a = 1; a < 6; a++) {
+for(var a = 1; a < 6; a++){
     document.write(a + "</br>");
 }
 console.log(a);
 
+
 //* let 
-// if(true){
-//     let b = 11;
-// }
-// console.log(b);
+if(true){
+    let b = 11;
+}
+console.log(b);
 //! ReferenceError: b is not defined
 
 
 //* const
-// if(true){
-//     const c = 14;
-// }
-// console.log(c);
+if(true){
+    const c = 14;
+}
+console.log(c);
 //! ReferenceError: c is not defined
