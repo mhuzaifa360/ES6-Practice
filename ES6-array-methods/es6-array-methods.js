@@ -140,16 +140,16 @@
     // splice(remove form this index, how many elements will remove, replace which this element)
     // splice(1,3,88)
     
-    var numbers = [10,12,23,34,45,56,56,67,90]
-    numbers.splice(1,2,900)
+    // var numbers = [10,12,23,34,45,56,56,67,90]
+    // numbers.splice(1,2,900)
 
-    console.log('array after splice ',numbers);
+    // console.log('array after splice ',numbers);
     
-    //! another example:
-    var person = ['huzaifa','ali','hamza','mahtab']
-    person.splice(2, 2, 'hamad')
+    // //! another example:
+    // var person = ['huzaifa','ali','hamza','mahtab']
+    // person.splice(2, 2, 'hamad')
     
-    console.log('second array after splice ', person);
+    // console.log('second array after splice ', person);
     
     
     //?---------------------------------------
@@ -158,6 +158,101 @@
     
     //? Def: executes a provided function once of each array element.
 
+    //Executes a function for each array element.
     
-    
-    
+    // let arr1 = [1, 2, 3];
+    // arr1.forEach(n => console.log(`after apply for each ` + n * 2));
+
+
+    //? 9. Map
+    // Creates a new array by applying a function to each element.
+
+    // let arr2 = [1, 2, 3];
+    // let doubled = arr2.map(el => el * 2);
+    // console.log(`after apply map ` + doubled);
+
+
+    //? 10. Filter
+    // Creates a new array with elements that pass a test.
+
+    // let arr3 = [1, 2, 3, 4];
+    // let even = arr3.filter(el => el % 2 === 0);
+    // console.log(`even numbers : ` , even); // Output: [2, 4]
+
+
+    //?  11. Reduce
+    // Reduces the array to a single value.
+
+    // let arr4 = [1, 2, 3];
+    // let sum = arr4.reduce((acc, el) => acc + el, 0);
+    // console.log(sum); // Output: 6
+
+
+    //? 12. Find
+    // Returns the first element that satisfies a condition.
+
+    // let arr5 = [1, 2, 3];
+    // let found = arr5.find(el => el > 1);
+    // console.log(found); // Output: 2
+
+
+    //?  13. FindIndex
+    // Returns the index of the first element that satisfies a condition.
+
+    // let arr6 = [1, 2, 3];
+    // let index = arr6.findIndex(el => el > 1);
+    // console.log(index); // Output: 1
+
+
+    //?  14. Every
+    // Checks if all elements satisfy a condition.
+
+    // let arr7 = [1, 2, 3];
+    // let allPositive = arr7.every(el => el > 0);
+    // console.log(allPositive); // Output: true
+
+
+    //?  15. **Some**
+    // Checks if at least one element satisfies a condition.
+
+    // let arr8 = [1, 2, 3];
+    // let hasEven = arr8.some(el => el % 2 === 0);
+    // console.log(hasEven); // Output: true
+
+
+    //? ### 16. **Sort**
+    // Sorts the elements in ascending or custom order.
+
+    // let arr9 = [3, 1, 2];
+    // arr9.sort();
+    // console.log(arr9); // Output: [1, 2, 3]
+
+
+    //? ### 17. **Reverse**
+    // Reverses the order of elements in an array.
+
+    // let arr10 = [1, 2, 3];
+    // arr10.reverse();
+    // console.log(arr10); // Output: [3, 2, 1]
+
+
+    //? ### 18. **Includes**
+    // Checks if an array contains a specified element.
+
+    // let arr11 = [1, 2, 3];
+    // console.log(arr11.includes(2)); // Output: true
+
+
+    // ### 19. **IndexOf**
+    // Finds the index of a specified element.
+
+    // let arr12 = [1, 2, 3];
+    // console.log(arr12.indexOf(2)); // Output: 1
+
+
+    //? ### 20. **Join**
+    // Joins array elements into a string.
+
+    // let arr13 = ['a', 'b', 'c'];
+    // let joined = arr13.join('.');
+    // console.log(joined); 
